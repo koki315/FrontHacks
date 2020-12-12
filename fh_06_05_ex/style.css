@@ -1,0 +1,25 @@
+body{
+  width: 760px;
+  background-color: #cccccc;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.picture{
+  width: 243px;
+  margin: 0 5px 10px 5px;
+  background: #ffffff;
+}
+.picture-title{
+  text-align: center;
+  font-size: 80%;
+}
+.picture img{
+ width: 100%;
+}

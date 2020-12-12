@@ -1,0 +1,16 @@
+img{
+  width: 100%;
+}
+.img-title{
+  text-align: center;
+  margin: 10px 0;
+}
+.container{
+
+}
+.img-gallery{
+  padding: 30px;
+}
+body{
+  background-color: #cccccc;
+}
