@@ -1,0 +1,15 @@
+body{
+  background: #888;
+}
+.slide-section{
+  width: 50%;
+  margin: 50px auto;
+}
+.box{
+  text-align: center;
+  padding: 10px;
+}
+.box p{
+  background: #ff0;
+  line-height: 100px;
+}

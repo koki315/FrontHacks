@@ -1,0 +1,71 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+header, footer, nav, section, article, aside, figure, figcaption {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  margin-top: 30px;
+}
+
+ol, ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+
+li{
+  list-style: none;
+}
+h1{
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#input-section{
+  text-align: center;
+}
+input{
+  margin-bottom: 30px;
+}
+#todo-container{
+  width: 800px;
+  max-width: 100%;
+  padding: 0 240px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: content-box;
+}
+#todo-container li{
+  border: 3px solid #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.item-button{
+ margin-left: auto;
+}
+#todo-container li:hover{
+  background: #808080;
+  opacity: 0.7;
+}
