@@ -1,0 +1,15 @@
+{
+  "name": "fh_20_ex_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "power-assert": "^1.6.1"
+  }
+}
